@@ -1,5 +1,6 @@
 # IncuBrix PS3 — Script and Voiceover to B-roll Video Engine
 
+Assessment implementation scaffold. **Do not claim all requirements pass until you run the test pack and verify output videos.**
 
 ## Current implementation scope
 - FastAPI endpoints for health/readiness, JSON job submission, uploaded audio, status, and downloads.
