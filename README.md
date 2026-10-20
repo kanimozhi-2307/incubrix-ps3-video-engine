@@ -11,7 +11,7 @@ Assessment implementation scaffold. **Do not claim all requirements pass until y
 - FFmpeg rendering for 16:9, 9:16, and 1:1; SRT; `timeline.json`; `manifest.json`.
 - pytest starter tests and a batch runner.
 
-## Known limitations — disclose honestly
+## Known limitations 
 - Current jobs/idempotency are in memory, not durable across restarts. Redis is in Compose but the app does not yet use it as a queue.
 - MinIO is provisioned but output files currently use local volume storage; S3-compatible output integration remains to be implemented.
 - The callback URL and HMAC signature are not implemented.
